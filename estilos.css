@@ -1,0 +1,74 @@
+li {
+	font-size: 1.5rem;
+	transition: all 3s ease;
+}
+
+.header a {
+	color: white;
+}
+
+.header a:hover {
+	text-decoration: none;
+	color: yellow;
+}
+
+.footer a {
+	color: yellow;
+	transition: all 3s ease;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+li:hover {
+	transform: scale(1.2);
+}
+
+ul {
+	background: rgba(11,11,11,.5);
+	border-radius: 20px;
+}
+
+
+body {
+background: rgba(76,76,76,1);
+background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(100%, rgba(102,102,102,1)));
+background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 100%);
+background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 100%);
+background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 100%);
+background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#666666', GradientType=1 );
+font-family: 'Questrial', sans-serif;
+}
+
+
+
+@media (max-width: 768px) {
+  
+  h3 {
+  	font-size: 1.5rem;
+  }
+
+    li {
+  	font-size: 1.5rem;
+  }
+
+
+  }
+
+
+@media (max-width: 576px) {
+  
+  h3 {
+  	font-size: 1.3rem;
+  }
+
+    li {
+  	font-size: 1.3rem;
+  }
+
+
+  }

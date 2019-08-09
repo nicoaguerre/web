@@ -1,0 +1,161 @@
+* {
+	font-family: 'Exo', sans-serif;
+}
+
+
+.videobg {
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.main {
+	background-color: black;
+	 overflow-x: hidden;
+}
+
+
+.elenco {
+	background: url(../images/elenco.jpg) fixed no-repeat;
+	background-size: cover;
+}
+
+.episodios {
+	background: url(../images/episodios.jpg) fixed no-repeat;
+	background-size: cover;
+}
+
+footer {
+	background: rgba(233,42,45,1);
+	background: -moz-linear-gradient(left, rgba(233,42,45,1) 0%, rgba(115,9,11,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(233,42,45,1)), color-stop(100%, rgba(115,9,11,1)));
+	background: -webkit-linear-gradient(left, rgba(233,42,45,1) 0%, rgba(115,9,11,1) 100%);
+	background: -o-linear-gradient(left, rgba(233,42,45,1) 0%, rgba(115,9,11,1) 100%);
+	background: -ms-linear-gradient(left, rgba(233,42,45,1) 0%, rgba(115,9,11,1) 100%);
+	background: linear-gradient(to right, rgba(233,42,45,1) 0%, rgba(115,9,11,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e92a2d', endColorstr='#73090b', GradientType=1 );
+}
+
+
+header	{
+	background: black;
+}
+
+footer li {
+	transition: all 3s cubic-bezier(.1, .5, .1, .4);
+}
+
+footer li:hover {
+	transform: scale(1.3);
+	filter: invert(1);
+}
+
+header img {
+	transition: all 3s cubic-bezier(.1, .5, .1, .4);
+}
+
+header img:hover {
+	filter: blur(20px);
+}
+
+header li {
+	transition: all 3s cubic-bezier(.1, .5, .1, .4);
+}
+
+header li:hover {
+	transform: scale(1.3);
+}
+
+@media (max-width: 900px) {
+
+.display-4 {
+	font-size: 2.5rem;
+}
+
+h2	{
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+}
+
+
+
+
+
+.accordian {
+	width: 500px; height: 320px;
+	overflow: hidden;
+}
+
+.accordian ul {
+	width: 1200px;
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 40px;
+	float: left;
+	border-left: 1px solid #888;
+	box-shadow: 18px -12px 80px 0px rgba(212,2,55,0.84);
+	transition: all 0.5s;
+}
+
+
+.accordian ul:hover li {width: 20px;}
+
+.accordian ul li:hover {width: 300px;}
+
+
+.accordian li img {
+	display: block;
+}
+
+
+.image_title {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;	
+width: 640px;	
+
+}
+.image_title a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+}
+
+
+@media (max-width: 992px) {
+
+.accordian li {
+	width: 60px;
+}
+
+.accordian ul:hover li {width: 10px;}
+
+.accordian ul li:hover {width: 300px;}
+
+}
+
+
+
+@media (max-width: 768px) {
+
+.accordian li {
+	width: 20px;
+}
+
+
+.accordian ul:hover li {width: 10px;}
+
+.accordian ul li:hover {width: 300px;}
+
+}

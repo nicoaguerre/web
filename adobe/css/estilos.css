@@ -1,0 +1,83 @@
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif; }
+
+body {
+  background: url(../images/bg.jpg) fixed;
+  background-size: cover; }
+
+.photoshop .container {
+  background: blue;
+  -webkit-box-shadow: 2px 0px 56px 14px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 0px 56px 14px rgba(0, 0, 0, 0.6); }
+
+.illustrator .container {
+  background: orange;
+  -webkit-box-shadow: 2px 0px 56px 14px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 0px 56px 14px rgba(0, 0, 0, 0.6); }
+
+.premiere .container {
+  background: purple;
+  -webkit-box-shadow: 2px 0px 56px 14px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 0px 56px 14px rgba(0, 0, 0, 0.6); }
+
+.after .container {
+  background: #c257a4;
+  -webkit-box-shadow: 2px 0px 56px 14px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 0px 56px 14px rgba(0, 0, 0, 0.6); }
+
+.main img,
+#video {
+  -webkit-box-shadow: 39px 35px 70px 0px rgba(8, 8, 8, 0.6);
+          box-shadow: 39px 35px 70px 0px rgba(8, 8, 8, 0.6); }
+
+header {
+  background: rgba(8, 8, 8, 0.7); }
+
+footer img {
+  width: 50px; }
+
+footer p:hover {
+  color: red; }
+
+footer li:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
+
+header li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+
+footer li {
+  -webkit-transition: -webkit-transform 2s ease;
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease;
+  transition: transform 2s ease, -webkit-transform 2s ease; }
+
+header li {
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease; }
+
+@media screen and (max-width: 992px) {
+  .display-1 {
+    font-size: 4rem; } }
+@media screen and (max-width: 768px) {
+  .display-1 {
+    font-size: 3rem; } }
+
+/*# sourceMappingURL=estilos.css.map */
+
+.paginas {
+  background: black;
+  }
+
+.paginas li {
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease; }  
+
+.paginas li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2); }

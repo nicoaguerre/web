@@ -1,0 +1,86 @@
+body{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+	background: url(../images/bg.jpg) fixed;
+	background-size: cover;
+}
+
+.photoshop .container {
+	background: blue;
+	box-shadow: 2px 0px 56px 14px rgba(0,0,0,0.6);
+}
+
+.illustrator .container {
+	background: orange;
+	box-shadow: 2px 0px 56px 14px rgba(0,0,0,0.6);
+}
+
+
+.premiere .container {
+	background: purple;
+	box-shadow: 2px 0px 56px 14px rgba(0,0,0,0.6);
+}
+
+.after .container {
+	background: #c257a4;
+	box-shadow: 2px 0px 56px 14px rgba(0,0,0,0.6);
+}
+
+
+.main img,
+#video {
+	box-shadow: 39px 35px 70px 0px rgba(8,8,8,.6);
+}
+
+header {
+	background: rgba(8,8,8,.7);
+}
+
+footer img {
+	width: 50px;
+}
+
+footer p:hover {
+	color: red;
+}
+
+footer li:hover {
+	transform: rotate(360deg);
+
+}
+
+header li:hover {
+	transform: scale(1.2);
+
+}
+
+footer li {
+	transition: transform 2s ease;
+
+}
+
+header li {
+	transition: transform 1s ease;
+
+}
+
+@media screen and (max-width: 992px) {
+
+.display-1	{
+	font-size: 4rem;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+.display-1	{
+	font-size: 3rem;
+}
+
+}
